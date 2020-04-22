@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#ECD038",
+  "usingComponents": {
+    "auth-page": "/components/authorization-page"
+  }
+}

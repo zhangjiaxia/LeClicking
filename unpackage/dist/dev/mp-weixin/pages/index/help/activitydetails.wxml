@@ -1,0 +1,1 @@
+<view class="activity"><rich-text nodes="{{detail.details}}" space="nbsp"></rich-text><view class="addiv"><image class="ad" src="{{img}}"></image></view></view>

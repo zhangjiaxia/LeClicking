@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "auth-page": "/components/authorization-page",
+    "time-axis": "/components/time-axis",
+    "before-cart": "/components/before-cart"
+  }
+}

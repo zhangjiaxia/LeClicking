@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*弹窗样式相关*/
+.popup {
+  background: #FFFFFF;
+  width: 500rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+}
+.popup .msg {
+    text-align: center;
+    margin-bottom: 64rpx;
+    font-size: 32rpx;
+    color: #000000;
+}
+.popup .bind, .popup .purchase {
+    width: 180rpx;
+    height: 70rpx;
+    font-size: 27rpx;
+    border: 1px solid #fd5e2d;
+    border-radius: 10rpx;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+.popup .bind {
+    margin-right: 15px;
+    color: #FD5E2D;
+}
+.popup .purchase {
+    background: #fd5e2d;
+    color: #FFFFFF;
+}
+.devicepopup {
+  width: 100%;
+  background: #FFFFFF;
+}
+.devicepopup view {
+    font-size: 27rpx;
+    line-height: 1.2;
+}
+.devicepopup .checkdevice {
+    margin: 38rpx 20rpx;
+    width: 100%;
+}
+.devicepopup .checkdevice .choose {
+      color: #343434;
+}
+.devicepopup .checkdevice .add {
+      color: #FD5E2D;
+}
+.devicepopup .checkdevice .number {
+      font-size: 22rpx;
+}
+.attributepopup {
+  width: 690rpx;
+  font-size: 28rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+}
+.attributepopup .top {
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+}
+.attributepopup .top .attrTitle {
+      color: #000000;
+      font-size: 36rpx;
+      margin-bottom: 40rpx;
+}
+.attributepopup .top .item {
+      width: 190rpx;
+      height: 60rpx;
+      border-radius: 5rpx;
+      margin-right: 26rpx;
+      margin-bottom: 30rpx;
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: inline-flex;
+      background: #FFFFFF;
+      border: 1px solid #DDDDDD;
+      color: #333333;
+}
+.attributepopup .top .itemactive {
+      background: #fff1ed;
+      border: 1px solid #fd5e2d;
+      color: #FD5E2D;
+}
+.attributepopup .itembar {
+    height: 80rpx;
+    background: #efefef;
+    color: #343434;
+    margin-top: 25rpx;
+    padding-left: 32rpx;
+}
+.attributepopup .bottombtn {
+    height: 100rpx;
+}
+.attributepopup .bottombtn .base {
+      color: #666666;
+}
+.attributepopup .bottombtn .active {
+      color: #FD5E2D;
+}
+

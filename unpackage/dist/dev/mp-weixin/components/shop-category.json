@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "auth-page": "/components/authorization-page"
+  },
+  "component": true
+}

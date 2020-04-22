@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/shop/index",
+    "pages/my/index",
+    "pages/index/index",
+    "pages/find/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/my/order/",
+      "pages": [
+        "ordermanagement",
+        "orderdetail",
+        "ordersigning",
+        "evaluate"
+      ]
+    },
+    {
+      "root": "pages/my/mine/",
+      "pages": [
+        "adddevice",
+        "newdevice",
+        "billmanagement",
+        "coupon",
+        "collection",
+        "poster",
+        "systemsetup"
+      ]
+    },
+    {
+      "root": "pages/shop/cart/",
+      "pages": [
+        "editaddress",
+        "addaddress",
+        "orderpay",
+        "goodsdetail",
+        "cart"
+      ]
+    },
+    {
+      "root": "pages/index/help/",
+      "pages": [
+        "activitydetails",
+        "search",
+        "customer"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#EB5D32",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "iconPath": "static/find.png",
+        "selectedIconPath": "static/findactive.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "iconPath": "static/tabbar/shop.png",
+        "selectedIconPath": "static/tabbar/shopactive.png",
+        "text": "商店"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/myactive.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap52.json"
+}

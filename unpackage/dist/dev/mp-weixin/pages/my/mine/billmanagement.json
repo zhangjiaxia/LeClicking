@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "账单管理",
+  "navigationBarBackgroundColor": "#F0F0F0",
+  "usingComponents": {
+    "mx-date-picker": "/components/mx-datepicker/mx-datepicker"
+  }
+}

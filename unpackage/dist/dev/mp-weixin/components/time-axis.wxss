@@ -1,0 +1,78 @@
+
+.itemTimeZ{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+          flex:1;
+  padding:0px 15px 0 15px;
+}
+.leftView{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-left: -190rpx;
+}
+.roundVIew{
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  background: red;
+}
+.outRoundVIew{
+  width: 15rpx;
+  height: 15rpx;
+  border-radius: 50%;
+  background: #676767;
+}
+.leftLine{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  width: 1px;
+  margin-left: 2.5px;
+  padding-bottom: 6px;
+  background: #CECECE;
+}
+.rightContent{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+          flex:1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-top: -6px;
+  margin-left: 15px;
+  padding-bottom: 24px;
+}
+.curentTitle{
+  font-size: 16px;
+  line-height: 22.5px;
+  color:#fe473c
+}
+.curentTime{
+  font-size: 14px;
+  color:#fe473c
+}
+.outTitle{
+  font-size: 16px;
+  line-height: 22.5px;
+  color:#999
+}
+.outTime{
+  font-size: 23rpx;
+  color: #343434;
+}
+

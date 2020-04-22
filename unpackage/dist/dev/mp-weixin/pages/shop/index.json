@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商店",
+  "usingComponents": {
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "auth-page": "/components/authorization-page",
+    "before-cart": "/components/before-cart",
+    "category": "/components/shop-category"
+  }
+}

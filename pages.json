@@ -1,0 +1,195 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages	
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "商店"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#ECD038"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "思迪互动"
+			}
+		},
+		{
+			"path": "pages/find/index",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		}
+    ],
+	"subPackages": [
+		{
+			"root": "pages/my/order/",
+			"pages": [{
+				"path" : "ordermanagement",
+				"style": {
+					"navigationBarTitleText": "订单管理"
+				}
+			},
+			{
+				"path" : "orderdetail",
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"navigationBarBackgroundColor": "#FD5E2D",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			{
+				"path" : "ordersigning",
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"navigationBarBackgroundColor": "#FD5E2D",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			{
+				"path" : "evaluate",
+				"style": {
+					"navigationBarTitleText": "评论"
+				}
+			}]
+		},
+		{
+			"root": "pages/my/mine/",
+			"pages": [{
+				"path" : "adddevice",
+				"style": {
+					"navigationBarTitleText": "确认订单"
+				}
+			},
+			{
+				"path" : "newdevice",
+				"style": {
+					"navigationBarTitleText": "添加设备"
+				}
+			},
+			{
+				"path" : "billmanagement",
+				"style": {
+					"navigationBarTitleText": "账单管理",
+					"navigationBarBackgroundColor": "#F0F0F0"
+				}
+			},
+			{
+				"path": "coupon",
+				"style": {
+					"navigationBarTitleText": "我的卡包"
+				}
+			},
+			{
+				"path" : "collection",
+				"style": {
+					"navigationBarTitleText": "我的收藏"
+				}
+			},
+			{
+				"path": "poster",
+				"style": {
+					"navigationBarTitleText": "邀请用户专属海报"
+				}
+			},
+			{
+				"path" : "systemsetup",
+				"style": {
+					"navigationBarTitleText": "系统设置"
+				}
+			}]
+		},
+		{
+			"root": "pages/shop/cart/",
+			"pages": [{
+				"path" : "editaddress",
+				"style": {
+					"navigationBarTitleText": "编辑地址"
+				}
+			},
+			{
+				"path" : "addaddress",
+				"style": {
+					"navigationBarTitleText": "确认订单"
+				}
+			},
+			{
+				"path" : "orderpay",
+				"style": {
+					"navigationBarTitleText": "确认订单"
+				}
+			},{
+				"path" : "goodsdetail",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			},{
+				"path": "cart",
+				"style": {
+					"navigationBarTitleText": "购物车"
+				}
+			}]
+		},
+		{
+			"root": "pages/index/help/",
+			"pages": [{
+				"path" : "activitydetails",
+				"style": {
+					"navigationBarTitleText": "活动详情"
+				}
+			},
+			{
+				"path": "search",
+				"style": {
+					"navigationBarTitleText": "搜索"
+				}
+			},
+			{
+				"path": "customer",
+				"style": {
+					"navigationBarTitleText": "联系客服"
+				}
+			}]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#EB5D32",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/indexactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/find/index",
+				"iconPath": "static/find.png",
+				"selectedIconPath": "static/findactive.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/shop/index",
+				"iconPath": "static/tabbar/shop.png",
+				"selectedIconPath": "static/tabbar/shopactive.png",
+				"text": "商店"
+			}, {
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/myactive.png",
+				"text": "我的"
+			}
+		]
+	}
+}
